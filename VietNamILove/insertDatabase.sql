@@ -1,0 +1,53 @@
+﻿use QuanLyKhoHang
+go
+set dateformat dmy
+go
+-- tblSanPham
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Bình giữ nhiệt Coco', 90000, 5)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Xe máy điện Vinfast', 14000000, 10)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Chổi lông gà', 20000, 15)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Chổi quét nhện', 25000, 20)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Thảm chà chân', 30000, 25)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Tượng Thần Tài', 50000, 5)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Tượng Thổ Địa', 50000, 10)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Bình bông cúng', 30000, 15)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Hương Long phụng bó nhỏ', 5000, 20)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Hương Long phụng bó to', 10000, 25)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Cặp chân đèn mạ đồng', 150000, 30)
+insert into tblSanPham (tenSP, donGia, soLuongCon)
+	values	(N'Cặp chân đèn mạ vàng', 500000, 5)
+
+-- tblNhanVien
+insert into tblNhanVien (tenNV, soDienThoai, diaChi, matKhau)
+	values	(N'Lê Thị Một', '0371231023', N'thôn A, xã B, huyện C, tỉnh D', 'abcdef')
+insert into tblNhanVien (tenNV, soDienThoai, diaChi, matKhau)
+	values	(N'Võ Văn Hai', '0372231023', N'thôn B, xã C, huyện D, tỉnh E', 'defghi')
+insert into tblNhanVien (tenNV, soDienThoai, diaChi, matKhau)
+	values	(N'Nguyễn Thị Ba', '0251023694', N'thôn C, xã D, huyện E, tỉnh F', 'ghijkl')
+insert into tblNhanVien (tenNV, soDienThoai, diaChi, matKhau)
+	values	(N'Đinh Văn Bốn', '0251023591', N'thôn D, xã E, huyện F, tỉnh G', 'jklmno')
+insert into tblNhanVien (tenNV, soDienThoai, diaChi, matKhau)
+	values	(N'Văn Thị Năm', '0264876246', N'thôn E, xã F, huyện G, tỉnh H', 'mnopqr')
+
+-- tblKhachHang
+insert into tblKhachHang (tenKH, soDienThoai, diaChi)
+	values	(N'Trần Văn Mười', '0792011533', N'thôn J, xã K, huyện L, tỉnh M')
+insert into tblKhachHang (tenKH, soDienThoai, diaChi)
+	values	(N'Thái Thị Chín', '0356203115', N'thôn I, xã J, huyện K, tỉnh L')
+insert into tblKhachHang (tenKH, soDienThoai, diaChi)
+	values	(N'Hồ Văn Tám', '0302154720', N'thôn H, xã I, huyện J, tỉnh K')
+insert into tblKhachHang (tenKH, soDienThoai, diaChi)
+	values	(N'Thân Thị Bảy', '0130254139', N'thôn G, xã H, huyện I, tỉnh J')
+insert into tblKhachHang (tenKH, soDienThoai, diaChi)
+	values	(N'Tô Văn Sáu', '0845790234', N'thôn F, xã G, huyện H, tỉnh I')
